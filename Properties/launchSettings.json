@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FirstRepeatingString": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
