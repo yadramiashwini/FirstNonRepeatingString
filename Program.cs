@@ -1,12 +1,12 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using System.Threading.Channels;
 
-namespace FirstRepeatingString
+namespace FirstNonRepeatingString
 {
     public class Program
     {
 
-        public static int FirstRepeat(string s)
+        public static int FirstNonRepeat(string s)
         {
             int n = s.Length;
             for (int i = 0; i < n; ++i)
@@ -38,7 +38,7 @@ namespace FirstRepeatingString
         {
             Console.WriteLine("enter string:");
             string s = Console.ReadLine();
-             int val = FirstRepeat(s);
+             int val = FirstNonRepeat(s);
             if (val == -1)
             {
                 Console.WriteLine("character is not found:");
